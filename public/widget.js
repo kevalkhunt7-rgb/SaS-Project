@@ -2,8 +2,8 @@
   if (window.SupportAIWidget) return;
   window.SupportAIWidget = true;
 
-  const API_BASE_URL = "http://localhost:5000";
-  const FRONTEND_BASE_URL = "http://localhost:3000";
+  const API_BASE_URL = "https://sas-project-p56n.onrender.com";
+  const FRONTEND_BASE_URL = "https://sa-s-project.vercel.app/" || "sa-s-project-git-main-kevalkhunt7-5969s-projects.vercel.app" || "sa-s-project-4gqh0ku5c-kevalkhunt7-5969s-projects.vercel.appdel package-lock.json";
   const scriptTag = document.currentScript;
   const businessId = scriptTag.getAttribute("data-business-id");
 
